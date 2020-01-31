@@ -1,0 +1,158 @@
+{
+    "pages": [
+        "pages/index/main"
+    ],
+    "subPackages": [{
+            "root": "pages/strategy/",
+            "pages": [
+                "list/main",
+                "strategyDetail/main"
+            ]
+        },
+        {
+            "root": "pages/authorization/",
+            "pages": [
+                "main"
+            ]
+        },
+        {
+            "root": "pages/comment/",
+            "pages": [
+                "main"
+            ]
+        },
+        {
+            "root": "pages/paymentSuccess/",
+            "pages": [
+                "main"
+            ]
+        },
+        {
+            "root": "pages/paymentFail/",
+            "pages": [
+                "main"
+            ]
+        },
+        {
+            "root": "pages/customPage/",
+            "pages": [
+                "main"
+            ]
+        },
+        {
+            "root": "pages/result/",
+            "pages": [
+                "main"
+            ]
+        },
+        {
+            "root": "pages/shoppingCart/",
+            "pages": [
+                "main"
+            ]
+        },
+        {
+            "root": "pages/webView/",
+            "pages": [
+                "main"
+            ]
+        },
+        {
+            "root": "pages/order/",
+            "pages": [
+                "pay/main",
+                "car/main"
+            ]
+        },
+        {
+            "root": "pages/hotel/",
+            "pages": [
+                "list/main",
+                "detail/main",
+                "order/main",
+                "order/contact/main",
+                "detail/mpvueCalendar/main"
+            ]
+        },
+        {
+            "root": "pages/scenic/",
+            "pages": [
+                "list/main",
+                "detail/main",
+                "detail/orderInfo/main",
+                "detail/moreDate/main",
+                "order/main",
+                "order/contact/main"
+            ]
+        },
+        {
+            "root": "pages/show/",
+            "pages": [
+                "list/main",
+                "detail/main",
+                "order/main",
+                "order/contact/main",
+                "detail/mpvueCalendar/main"
+            ]
+        },
+        {
+            "root": "pages/repast/",
+            "pages": [
+                "list/main",
+                "detail/main",
+                "order/main"
+            ]
+        },
+        {
+            "root": "pages/route",
+            "pages": [
+                "list/main",
+                "detail/main",
+                "detail/mpvueCalendar/main",
+                "order/main",
+                "order/contact/main"
+            ]
+        },
+        {
+            "root": "pages/member",
+            "pages": [
+                "comment/main",
+                "author/main",
+                "invoice/main",
+                "invoice/invoiceDetail/main",
+                "invoice/invoicePay/main",
+                "edit/editName/main",
+                "edit/main",
+                "group/detail/main",
+                "group/main",
+                "group/refund/main",
+                "main",
+                "detail/main",
+                "message/main",
+                "coupon/main",
+                "coupon/mycoupon/main",
+                "show/main",
+                "order/detail/main",
+                "order/evaluate/main",
+                "order/goodsSend/main",
+                "order/main",
+                "order/tuikuan/main",
+                "order/tuikuanDetail/main",
+                "receiveCoupon/main",
+                "topContacts/main",
+                "topContacts/newContacts/main"
+            ]
+        }
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom"
+    },
+    "requiredBackgroundModes": ["audio"],
+    "networkTimeout": {
+        "request": 10000
+    }
+}
